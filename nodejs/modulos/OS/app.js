@@ -1,4 +1,5 @@
-const os = require('os');// Importa o módulo OS (sistema operacional)
+//const os = require('os');// Importa o módulo OS (sistema operacional)
+import os from 'os';// Importa o módulo OS (sistema operacional)
 // Exibe informações sobre o sistema operacional
 console.log('Arquitetura do sistema:', os.arch());// Exibe a arquitetura do sistema (ex: x64, arm)
 console.log('Quantidade de CPUs', os.cpus());length;// Exibe o número de CPUs disponíveis

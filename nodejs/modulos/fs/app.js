@@ -1,5 +1,5 @@
-const fs = require('fs');// Importa o módulo de sistema de arquivos
-
+//const fs = require('fs');// Importa o módulo de sistema de arquivos
+import fs from 'fs'; // Importa o módulo de sistema de arquivos (usando sintaxe ES6)
 // Lê o conteúdo de um arquivo de forma assíncrona
 fs.readFile('example.txt', 'utf8', (err, data) => { // Lê o arquivo 'example.txt' de forma assíncrona usando codificação UTF-8
     if (err) { // Se ocorrer um erro durante a leitura
