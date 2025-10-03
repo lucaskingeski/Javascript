@@ -1,5 +1,5 @@
 {
-  "name": "http",
+  "name": "rotas",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -9,9 +9,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^5.1.0"
-  },
-  "devDependencies": {}
+  "license": "ISC"
 }
