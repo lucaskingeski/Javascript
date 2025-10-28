@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="../public/stylesheets/estilo.css">
+</head>
+<body>
+  <h1>Informe sobre o produto:</h1>
+  <form action="/produtos/cadastrado" method="POST">
+    <label for="ID">ID do produto:</label>
+    <input type="text" id="ID" name="ID" required><br><br>
+
+    <label for="descricao">Descrição:</label>
+    <input type="text" id="descricao" name="descricao" required><br><br>
+
+    <label for="quantidade"> Quantidade:</label>
+    <input type="number" id="quantidade" name="quantidade" required><br><br>
+
+    <label for="preco">Preço:</label>
+    <input type="number" id="preco" name="preco" required><br><br>
+
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+</html>
